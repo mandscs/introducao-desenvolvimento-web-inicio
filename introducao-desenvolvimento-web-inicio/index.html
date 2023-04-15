@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
@@ -11,12 +12,13 @@
        <img src="./photo.jpg" alt="Imagem de Estudo" widht="600px" height="400px"/>
         <div class="content">
             <h1 class="title">Curso Introdução Desenvolvimento Web</h1>
-            <h2 class="subtitle">Bem Vinda, Amanda.</h2>
+            <h2 class="subtitle" id="result" ></h2>
         </div>
         <input placeholder="Nome" name="name" id="name"/>
-        <button class="primary">Entrar</button>
-        <button class="secondery">Sair</button>
+        <button class="primary" onclick="getValue()">Entrar</button>
+        <button class="secondery" onclick="removeValue()">Sair</button>
     </section>
+    <script src="./index.js"></script>
     
 </body>
 </html>
